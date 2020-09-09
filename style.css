@@ -5,8 +5,8 @@ body {
 h1 {
   font-size: 50px;
   text-align: center;
-  text-color: white;
-  border-bottom: 1px solid  gray:
+  color: #FFFFFF;
+  border-bottom: 1px solid #808080:
   padding:15px;
   margin:0;
 }
@@ -14,8 +14,15 @@ h1 {
 h2 {
   font-size: 30px;
   text-align: left;
-  text-color: white;
+  color: #FFFFFF;
   padding:15px;
-  margin:0;
+
 }
 
+p {
+  font-size: 15px;
+  text-align: left;
+  color: #FFFFFF;
+  margin:0;
+  padding:15px;
+}
