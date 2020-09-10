@@ -36,6 +36,14 @@ nav {
   padding:15px;
 }
 
+table {
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin:0;
+  padding:15px;
+} 
+
 th {
   font-size: 25px;
   text-align: center;
@@ -50,6 +58,7 @@ th {
   margin:0;
   padding:15px;
 }
+
 li {
   font-size: 20px;
   text-align: left;
