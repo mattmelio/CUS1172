@@ -6,7 +6,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   color: #FFFFFF;
-  border-bottom: 1px solid #808080:
+  border-bottom: 1px solid #808080;
   padding:15px;
   margin:0;
 }
@@ -16,7 +16,7 @@ h2 {
   text-align: left;
   color: #FFFFFF;
   padding:15px;
-  border-bottom: 1px solid #808080:
+  border-bottom: 1px solid #808080;
 
 }
 
@@ -44,3 +44,20 @@ tb {
   padding:15px;
 }
   
+ul {
+  font-size: 20px;
+  text-align: left;
+  color: #FFFFFF;
+  margin:0;
+  padding:15px;
+  border-bottom: 1px solid #808080;
+}
+
+ul{
+  font-size: 20px;
+  text-align: left;
+  color: #FFFFFF;
+  margin:0;
+  padding:15px;
+  border-bottom: 1px solid #808080;
+}
