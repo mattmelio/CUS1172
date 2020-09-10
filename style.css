@@ -36,28 +36,35 @@ nav {
   padding:15px;
 }
 
-tb {
+th {
   font-size: 25px;
   text-align: center;
   color: #FFFFFF;
   margin:0;
   padding:15px;
 }
-  
-ul {
+  td {
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin:0;
+  padding:15px;
+}
+li {
   font-size: 20px;
   text-align: left;
-  color: #FFFFFF;
+  color: #55cdfc;
   margin:0;
   padding:15px;
   border-bottom: 1px solid #808080;
 }
 
-ul{
-  font-size: 20px;
-  text-align: left;
-  color: #FFFFFF;
-  margin:0;
+img {
+   margin:0;
   padding:15px;
-  border-bottom: 1px solid #808080;
+}
+
+iframe {
+   margin:0;
+  padding:15px;
 }
