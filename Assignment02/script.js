@@ -78,6 +78,22 @@ list.addEventListener('click', function(ev) {
   }
 }
 
+// Create a new list item when clicking the Add button
+function newElement() {
+  var priorityValue = priority.options[priority.selectedIndex].value;
+  console.log(priorityValue)
+
+  var li = document.createElement("li");
+  
+    if (priorityValue == "low") {
+        li.setAttribute('class', 'bg-info text-white')  
+    }
+    if (priorityValue == "medium") {
+        li.setAttribute('class', 'bg-warning text-white')  
+    }
+    if (priorityValue == "high") {
+        li.setAttribute('class', 'bg-danger text-white')  
+    }
                                                      
                             
                      
