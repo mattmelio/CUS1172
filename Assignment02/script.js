@@ -12,3 +12,23 @@ for (i = 0; i < close.length; i++) {
     var div = this.parentElement;
     div.style.display = "none";
   }
+
+  //form add event
+  document.addEventListener('DOMContentLoaded', function(){
+    document.querySelector('#form').onsubmit= function(){
+      let msg =  document.querySelector('#message').value;
+      alert(msg);
+    }
+    
+     document.querySelector('#abutton').onclick = function(){
+      let msg =  document.querySelector('#message').value;
+      alert(msg);
+     }
+  })
+ 
+  //
+                                                     
+                            
+                     
+    
+    
