@@ -26,7 +26,24 @@ for (i = 0; i < close.length; i++) {
      }
   })
  
-  //
+  //adding and removing tasks to DOM
+   document.addEventListener('DOMContentLoaded', function(){
+     document.querySelector("#new-task").onsubmit = function(){
+       
+       const li = document.createElement('li');
+       
+       let task_text = document.querySelector("#task").value;
+       let new_task_html = ' <span> ${task_text} </span>
+       
+       li.innerHTML = document.querySelector('#task').value;
+       
+       document.querySelector("#tasks_list").append(li);
+       document.querySelector("#task").value = '';
+       return false;
+     }
+   })
+  
+  
                                                      
                             
                      
