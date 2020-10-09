@@ -33,7 +33,8 @@ for (i = 0; i < close.length; i++) {
        const li = document.createElement('li');
        
        let task_text = document.querySelector("#task").value;
-       let new_task_html = ' <span> ${task_text} </span>
+       let new_task_html = ' <span> ${task_text} </span> <button class ="remove"> Remove </button>';
+       li.innerHTML = new_task_html
        
        li.innerHTML = document.querySelector('#task').value;
        
@@ -41,7 +42,15 @@ for (i = 0; i < close.length; i++) {
        document.querySelector("#task").value = '';
        return false;
      }
-   })
+      document.addEventListener('click', function(event){
+        
+        element = event.target;
+        if (element.className === 'remove'){
+          element.parentElement.remove();
+        }
+        
+      })
+   });
   
   
                                                      
